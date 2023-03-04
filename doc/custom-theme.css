@@ -1,0 +1,33 @@
+html {
+    /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
+    --primary-color: #753ab4;
+    --primary-dark-color: #bd44a2;
+    --primary-light-color: #86cdee;
+    --primary-lighter-color: #caf1ea;
+    --primary-lightest-color: #e9f4f8;
+
+    /* page base colors */
+    --page-background-color: white;
+    --page-foreground-color: #332c50;
+    --page-secondary-foreground-color: #78677e;
+
+    /*
+    --border-radius-large: 22px;
+    --border-radius-small: 9px;
+    --border-radius-medium: 14px;
+    --spacing-small: 8px;
+    --spacing-medium: 14px;
+    --spacing-large: 19px;
+
+    --top-height: 125px; */
+
+    --side-nav-background: var(--primary-lightest-color);
+    --side-nav-foreground: var(--page-foreground-color);
+    --header-foreground: var(--side-nav-foreground);
+    --searchbar-background: var(--page-background-color);
+    --header-background: var(--side-nav-background);
+    --header-foreground: var(--side-nav-foreground);
+
+    --toc-background: var(--primary-lightest-color);
+    --toc-foreground: var(--page-foreground-color);
+}
